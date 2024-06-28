@@ -78,3 +78,5 @@ The **CohereRerank** API ranks documents based on their semantic relevance to a 
 ## Usage
 
 Once the server is running, you can interact with the agent via the provided endpoints. The FastAPI interface allows for easy testing and integration with other services.
+
+![Screenshot from 2024-06-28 02-35-52](https://github.com/Kirouane-Ayoub/SmartQuery-/assets/99510125/4567b30b-394c-4fca-a21e-084a1fcb36a5)
