@@ -80,3 +80,17 @@ The **CohereRerank** API ranks documents based on their semantic relevance to a 
 Once the server is running, you can interact with the agent via the provided endpoints. The FastAPI interface allows for easy testing and integration with other services.
 
 ![Screenshot from 2024-06-28 02-35-52](https://github.com/Kirouane-Ayoub/SmartQuery-/assets/99510125/4567b30b-394c-4fca-a21e-084a1fcb36a5)
+
+## Integration with LangSmith
+
+You can integrate LangSmith for tracking your project by adding the following lines to your `.env` file:
+
+```
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY="<your-api-key>"
+```
+
+### LangSmith
+
+LangSmith is an all-in-one developer platform for every step of the LLM-powered application lifecycle, whether you’re building with LangChain or not. It allows you to debug, collaborate, test, and monitor your LLM applications effectively.
